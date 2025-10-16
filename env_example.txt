@@ -1,0 +1,19 @@
+# Smart Gold Trading Dashboard - Environment Variables
+# Copy this file to .env and add your API keys for real-time data
+
+# Alpha Vantage API (Free tier: 5 calls/minute, 500 calls/day)
+# Get your free API key at: https://www.alphavantage.co/support/#api-key
+ALPHA_VANTAGE_API_KEY=demo
+
+# Finnhub API (Free tier: 60 calls/minute)
+# Get your free API key at: https://finnhub.io/
+FINNHUB_API_KEY=demo
+
+# Polygon.io API (Free tier: 5 calls/minute)
+# Get your free API key at: https://polygon.io/
+POLYGON_API_KEY=demo
+
+# Application Settings
+AUTO_REFRESH_INTERVAL=60
+DEFAULT_TIMEFRAME=1mo
+DEFAULT_INTERVAL=1h

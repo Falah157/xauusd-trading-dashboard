@@ -1,0 +1,25 @@
+# Smart Gold Trading Dashboard - Configuration Example
+# Copy this file to config.yaml to customize settings
+
+credentials:
+  usernames:
+    demo:
+      email: demo@goldtrading.com
+      name: Demo User
+      password: $2b$12$KIXl.Huq2vDjvLsEYiB4Ee4QZLkdVJsVCWJwJVXQWvNxwvJjGKX6W  # demo123
+    # Add more users here
+    # username:
+    #   email: user@example.com
+    #   name: User Name
+    #   password: hashed_password_here
+
+cookie:
+  expiry_days: 30
+  key: smart_gold_trading_key  # Change this to a random string
+  name: smart_gold_trading_cookie
+
+preauthorized:
+  emails: []
+  # Add pre-authorized emails here
+  # - user@example.com
+
